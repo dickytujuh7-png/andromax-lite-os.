@@ -1,0 +1,33 @@
+{
+  "project": "Andromax Lite OS",
+  "status": "scaffold",
+  "target": {
+    "manufacturer": "Smartfren",
+    "marketing_name": "Andromax Prime",
+    "model": "F17A1H",
+    "alternate_recovery_identifier": "F17ALH",
+    "alternate_identifier_verified": false,
+    "ram_mb": 512,
+    "rom_size_goal_mb": 200
+  },
+  "interface": {
+    "launcher": "three_column_grid",
+    "input": "physical_keypad_only",
+    "touchscreen_required": false
+  },
+  "features": {
+    "flashlight": "must_preserve",
+    "browser": {
+      "name": "Andromax Web",
+      "engine": "undecided",
+      "chromium_68_is_unverified": true
+    }
+  },
+  "base_firmware": {
+    "identified": false,
+    "platform": "unknown",
+    "build_id": null,
+    "kernel_version": null,
+    "partition_layout": null
+  }
+}
